@@ -1,0 +1,10 @@
+from alpine
+maintainer jesse@jessebmiller.com
+
+run echo "@edge http://nl.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories 
+run echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
+run cat /etc/apk/repositories
+run apk update 
+run apk add emacs@testing
+
+entrypoint emacs

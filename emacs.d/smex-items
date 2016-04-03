@@ -1,0 +1,29 @@
+
+;; ----- smex-history -----
+(
+ package-list-packages
+ eval-buffer
+ paredit-mode
+ clojure-mode
+ whitespace-cleanup
+ whitespace-mode
+ whitespace-toggle-options
+)
+
+;; ----- smex-data -----
+(
+ (where-is . 1)
+ (package-list-packages . 6)
+ (color-theme-solarized . 1)
+ (color-theme-solarized-dark . 1)
+ (load-theme . 1)
+ (whitespace-mode . 16)
+ (whitespace-toggle-options . 11)
+ (eval-buffer . 59)
+ (column-number-mode . 2)
+ (column-marker-1 . 1)
+ (column-marker-3 . 1)
+ (whitespace-cleanup . 1)
+ (clojure-mode . 1)
+ (paredit-mode . 1)
+)
