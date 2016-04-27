@@ -46,8 +46,8 @@ run dnf install -y readline-devel
 # make a basic cider setup for lein
 run mkdir -p /root/.lein/
 run echo "{:user {:plugins [[cider/cider-nrepl \"0.8.2\"]]}}" > /root/.lein/profiles.clj
+
 env LEIN_ROOT please
-run lein deps
 
 env PATH=$PATH:$LEIN_INSTALL
 
