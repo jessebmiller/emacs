@@ -47,7 +47,7 @@ run dnf install -y readline-devel
 run mkdir -p /root/.lein/
 run echo "{:user {:plugins [[cider/cider-nrepl \"0.8.2\"]]}}" > /root/.lein/profiles.clj
 
-env LEIN_ROOT please
+env LEIN_ROOT 1
 
 env PATH=$PATH:$LEIN_INSTALL
 

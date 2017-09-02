@@ -1,4 +1,8 @@
 (require 'package)
+(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                    (not (gnutls-available-p))))
+       (url (concat (if no-ssl "http" "https") "://melpa.org/packages/")))
+    (add-to-list 'package-archives (cons "melpa" url) t))
 (add-to-list 'package-archives
              '("marmalade" . "https://marmalade-repo.org/packages/"))
 
@@ -42,3 +46,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; org mode stuff
+(global-set-key "\C-ca" 'org-agenda)
