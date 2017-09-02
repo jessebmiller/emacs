@@ -13,7 +13,7 @@
 ;; ----- smex-data -----
 (
  (where-is . 1)
- (package-list-packages . 6)
+ (package-list-packages . 7)
  (color-theme-solarized . 1)
  (color-theme-solarized-dark . 1)
  (load-theme . 1)

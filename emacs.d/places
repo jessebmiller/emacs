@@ -1,5 +1,7 @@
 ;;; -*- coding: utf-8 -*-
-(("/work/Dockerfile" . 203)
+(("/tmp/"
+  (dired-filename . "/tmp/.CFUserTextEncoding"))
+ ("/root/.emacs.d/elpa/solidity-mode-20170712.1442/solidity-mode-autoloads.el" . 467)
  ("/root/.emacs.d/init.el" . 631)
  ("/root/.emacs.d/elpa/archives/gnu/archive-contents" . 22872)
  ("/root/.emacs.d/elpa/archives/marmalade/archive-contents" . 115573)
