@@ -2,21 +2,28 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/tmp/" . "hsperfdata_root/")
  ("/" . "work/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/tmp/hsperfdata_root/"
  "/work/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "323"
  "Dockerfile"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/tmp/hsperfdata_root/" (22956 22828 0 0) "323" "../" "./")
+
+ ("/tmp/" (22956 22929 0 0) "hsperfdata_root/" ".Test-unix/" ".ICE-unix/" "ks-script-eup7u7fn" "../" "./" ".X11-unix/" ".XIM-unix/" ".font-unix/")
+
  ("/work/" (22272 25587 0 0) "LICENSE" "emacs.d/" "Dockerfile" ".git/" "../" "./")
 )
 
