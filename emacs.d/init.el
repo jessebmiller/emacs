@@ -1,4 +1,3 @@
-
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
@@ -54,5 +53,11 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; Backups and autosaves out of the way
+
 ;; org mode stuff
 (global-set-key "\C-ca" 'org-agenda)
+(setq org-default-notes-file (concat org-directory "/notes.org"))
+(define-key global-map "\C-cc" 'org-capture)
+
+
